@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FD84D9;
+  border: 1px solid red;
+}
+
+button {
+  margin-top: 10px;
+  border: 1px solid red;
+}
+
+img{
+  width: 90%;
+  max-width: 800px;
+  border: 1px solid red;
+}
+
+div {
+  margin-top: 5px;
+  border: 1px solid red;
+}
+
+h3 {
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
+  border: 1px solid red;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
