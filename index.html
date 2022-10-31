@@ -10,18 +10,31 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	</head>
 	<body>
+		<div id="wrapper">
+			<h1>Find-a-Drink</h1>
+			<label for="first">Enter a drink name or ingredient (ex: 'gin' or 'stawberry'):</label>
+			<input id="first" type="text" name="first" value="">
+			<div>
+				<input type="radio" id="alc" name="alc" value="alc">
+				<label for="alc">Alcoholic</label>
+			</div>
+			<div>
+				<input type="radio" id="nonalc" name="alc" value="nonalc">
+				<label for="nonalc">Non-Alcoholic</label>
+			</div>
+			<button id="first-button" type="button" name="button">Get Next Drink</button>
 
-		<h1>Summer Fun Drink Generator</h1>
-		<span>Enter a drink name or ingredient (ex: 'gin' or 'stawberry')</span>
-		<input id="first" type="text" name="" value="">
-		<button id="first-button" type="button" name="button">Get Next Cocktail</button>
 
-		<h2></h2>
-		<img src="" alt="">
-		<div></div>
-		<h3></h3>
+			<div id="presentwrapper">
+				<h2></h2>
+				<img src="" alt="">
+				<div id="drinkdiv"></div>
+				<h3></h3>
+			</div>
+		</div>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
